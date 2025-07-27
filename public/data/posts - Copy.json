@@ -1,0 +1,28 @@
+[
+ {
+      "id": 1,
+      "title": "Exploring the Tea Gardens of Munnar",
+      "author": "Praveen Kumar",
+      "date": "2025-05-24",
+      "thumbnail": "/images/img_1.jpg",
+      "background_image": "/images/munnar_mountains.jpg",
+      "summary": "We explored winding roads, stayed in a cozy hilltop cottage...",
+      "content": "<p>Munnar had always been on our travel wishlist, and in the second week of December 2024, the four of us—Me, Nivas, Saravana, and Balaji—finally made it happen. This trip wasn’t just a break; it was a collection of unforgettable moments and laughter-filled days nestled in the lap of nature.</p>\n\n<p>We started our journey early in the morning, driving through winding roads flanked by lush greenery and occasional waterfalls. As we ascended towards Munnar, the air got cooler, the fog got thicker, and the views became increasingly surreal.</p>\n\n<blockquote><p>\"There is no WiFi in the forest, but I promise you'll find a better connection.\" That’s exactly how we felt the moment we arrived in Munnar.</p></blockquote>\n\n<p>Our first stop was the Tea Museum, where we learned about the history of Munnar’s tea plantations. It was fascinating to see how something as simple as tea had shaped the entire region. Later, we took a stroll through the endless tea gardens—an ocean of green that seemed to stretch into the sky.</p>\n\n<p>The highlight of our trip was the sunrise trek to Meesapulimala. We started before dawn with torches in hand, and by the time we reached the summit, the sun had just begun to rise over the Western Ghats. It was a moment of awe, silence, and togetherness.</p>\n\n<blockquote><p>“Watching the sun rise with your closest friends on top of a mountain—there’s nothing quite like it.”</p></blockquote>\n\n<p>On our final day, we visited the Mattupetty Dam and took a boat ride surrounded by hills. We laughed, we clicked hundreds of photos, and promised we’d come back again—maybe with more stories and more friends.</p>\n\n<p>Munnar wasn’t just a place on the map—it was an experience. A much-needed reset button, filled with conversations, nature, and the pure joy of exploring together.</p>",
+      "category": ["Travel", "Kerala"],
+      "tags": ["#Munnar", "#India", "#TravelWithFriends"]
+  },
+  {
+    "id": 2,
+    "title": "1",
+    "author": "1",
+    "date": "2025-06-04",
+    "summary": "1",
+    "content": "1",
+    "category": [
+      "Travel"
+    ],
+    "tags": [
+      "#Travel"
+    ]
+  }
+]

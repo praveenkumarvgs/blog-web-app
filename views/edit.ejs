@@ -1,0 +1,25 @@
+<div class="site-section">
+  <div class="container">
+    <h2>Edit Post</h2>
+
+    <form action="/edit/<%= post.id %>" method="POST">
+      <div class="form-group">
+        <label>Title</label>
+        <input name="title" value="<%= post.title %>" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Author</label>
+        <input name="author" value="<%= post.author %>" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Content</label>
+        <textarea name="content" id='TinyMCE' required class="form-control"><%= post.content %></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary mt-2 mr-3">Save</button>
+      <button type="cancel" class="btn btn-primary mt-2">Cancel</button>
+    </form>
+  </div>
+</div>

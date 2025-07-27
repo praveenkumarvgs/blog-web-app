@@ -1,0 +1,5 @@
+﻿Date	Time	Severity	PID	TID	Function	Message
+27-07-2025	21:46:12.325	 INFO	 27448	  4132	DllMain	"DLL_PROCESS_ATTACH "
+27-07-2025	21:46:12.329	 INFO	 27448	 30632	InitializeCurrentProcessInfo	"0|0|0"
+27-07-2025	21:46:12.341	ERROR	 27448	 30632	Edlp::Process::GetLabelId	"std::exception thrown GetFileVersionInfoSizeW failed with 1813"
+27-07-2025	21:46:12.343	 INFO	 27448	 30632	ProcessEdlpPolicy	"Label Id :NonWork (2)"

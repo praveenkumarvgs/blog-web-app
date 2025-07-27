@@ -1,0 +1,13 @@
+<% if (title === "Message" && firstName) { %>
+<script>
+  alert(`Hi <%= firstName %>, we've received your message. We'll respond to you soon and thanks for reaching us!`);
+  window.location.href = "/"; // Redirect after alert
+</script>
+<% } %>
+
+<% if (title === "Subscribe") { %>
+<script>
+  alert("Thank you for subscribing to our blog. We're thrilled to share our latest posts, insights, and exclusive content with you.");
+  window.location.href = "/"; // Redirect after alert
+</script>
+<% } %>
