@@ -1,4 +1,4 @@
-📘 Blog Web App
+**📘 Blog Web App**
 A simple blog web application built with Node.js, Express.js, and EJS that supports creating, reading, updating, and deleting blog posts.
 ________________________________________
 🚀 Features
@@ -7,10 +7,10 @@ ________________________________________
 •	📂 Modular routes and views
 •	📦 Node.js + Express.js + EJS stack
 ________________________________________
-🛠️ Project Structure
+**🛠️ Project Structure**
  <img width="940" height="259" alt="image" src="https://github.com/user-attachments/assets/390a6ac7-be09-4f3b-8267-99e1e97a6c79" />
 
-📦 Setup Instructions (Local Development)
+**📦 Setup Instructions (Local Development)**
 1.	Clone the repository:
     git clone https://github.com/YOUR-USERNAME/blog-web-app.git
     cd blog-web-app
@@ -22,7 +22,8 @@ ________________________________________
 
 4.	Visit in browser:
 Open http://localhost:3000
-☁️ Deploying (Free Hosting)
+
+**☁️ Deploying (Free Hosting)**
 🔹 Render
     1.	Log in → New Web Service → Connect GitHub repo
     2.	Set:
