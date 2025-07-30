@@ -1,0 +1,4 @@
+node_modules/
+# Ignore Windows system paths
+/DesktopCentral_Agent/
+/%LOCALAPPDATA%/
