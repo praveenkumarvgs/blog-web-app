@@ -597,13 +597,16 @@ h1, h2, h3, h4, h5,
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
   .site-mobile-menu .site-mobile-menu-header {
-    width: 100%;
-    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box; }
     .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
-      float: right;
-      margin-top: 8px; }
+      /**float: right;**/
+      margin-top: 0px; }
       .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
         font-size: 30px;
         display: inline-block;
@@ -617,8 +620,8 @@ h1, h2, h3, h4, h5,
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
           color: #ced4da; }
     .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
-      float: left;
-      margin-top: 10px;
+      /**float: left;**/
+      margin-top: 0px;
       margin-left: 0px; }
       .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a {
         display: inline-block;
@@ -1925,7 +1928,30 @@ h1, h2, h3, h4, h5,
     bottom: -20px;
     right: -20px; }
 
-    @media (max-width: 991.98px) {
+    .site-menu-toggle {
+      /**position: fixed;**/
+      /**position: absolute;**/
+      position: relative;
+      top: 0px;
+      right: 20px;
+      z-index: 2001;
+      cursor: pointer;
+      font-size: 28px;
+      color: #333;
+      padding: 6px 10px;
+    }
+
+    body.offcanvas-menu .site-menu-toggle {
+      display: none !important;
+    }
+
+
+    .site-menu-toggle .icon-menu {
+      color: #000; /* dark gray, or any dark color you prefer */
+    }
+
+    /** @media (max-width: 991.98px) { **/
+    @media (max-width: 767.98px) {
       .site-navigation {
         display: none !important;
       }
